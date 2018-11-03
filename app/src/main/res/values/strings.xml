@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Kisan Neeti</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Exit</string>
+
+    <array name="Genres">
+        <item>Rock</item>
+        <item>Sufi</item>
+        <item>Folk</item>
+        <item>Pop</item>
+    </array>
+
+    <array name="City">
+        <item>--Select--</item>
+        <item>Amritsar</item>
+        <item>Barnala</item>
+        <item>Bathinda</item>
+        <item>Faridkot</item>
+        <item>Gurdaspur</item>
+        <item>Hoshiarpur</item>
+        <item>Jalandhar</item>
+    </array>
+
+    <array name="Crops">
+        <item>--Select--</item>
+        <item>Wheat</item>
+        <item>Paddy</item>
+        <item>Cotton</item>
+        <item>Maize</item>
+    </array>
+
+    <string name="About_us">
+        This app has been developed by Team Lakshya of NIT Jalandhar. Purpose of this app is to solve the awareness problem among farmers and to reduce the semantic gap between the government and farmers.\nTeam Lakshya consists of three members:\nShivam Mahajan - 3rd year ECE student in NITJ\nAyush Sen - 3rd year ECE student in NITJ\nLakhveer Singh - 3rd year ECE student in NITJ\n\nMade with love.\n\nRegards,\nTeam Lakshya\n
+    </string>
+</resources>

@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "492351138934",
+    "firebase_url": "https://kisan-neeti.firebaseio.com",
+    "project_id": "kisan-neeti",
+    "storage_bucket": "kisan-neeti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492351138934:android:bccd40288eb876ba",
+        "android_client_info": {
+          "package_name": "com.company.shivam.kisanneeti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492351138934-laq81ln2en3ep858bjnko8ktot0ji3um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDWQR173X7G_S3QUdmCdqRoOox6SFGAv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492351138934:android:c416ed03b39f284a",
+        "android_client_info": {
+          "package_name": "com.example.shivam.kisanneeti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492351138934-f28ug8t0iv8lrlf2b5fkvosg7nfpf0s2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivam.kisanneeti",
+            "certificate_hash": "ffc2a969bd9f8288b55f6a933182068a661babbe"
+          }
+        },
+        {
+          "client_id": "492351138934-laq81ln2en3ep858bjnko8ktot0ji3um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDWQR173X7G_S3QUdmCdqRoOox6SFGAv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492351138934-laq81ln2en3ep858bjnko8ktot0ji3um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

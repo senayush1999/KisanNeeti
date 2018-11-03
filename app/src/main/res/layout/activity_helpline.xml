@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="com.example.shivam.kisanneeti.HelplineActivity">
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="149dp"
+        android:background="@drawable/helpline_background"
+        android:layout_gravity="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_margin="5dp"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For any further information, please contact:"
+                android:textSize="20sp"
+                android:layout_weight="5"
+                android:textColor="#000"
+                android:textAlignment="center"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:padding="10dp">
+        <TextView
+            android:text="Kisan Call Centre(Toll free no.)"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="4"
+
+            />
+        <TextView
+            android:text="1800-180-1551"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_weight="0.25"
+            android:textAlignment="center"
+            />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:text="For any query call, call us on"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="4"
+                />
+            <TextView
+                android:text="011-23382012-(2715/2709)"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:text="Call on the direct helpline no."
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="4"
+                />
+            <TextView
+                android:text="011-23381092"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other relevant web portals"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="5"
+                android:textColor="#000"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:text="Ministry of Agriculture and Farmers's Welfare"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="4"
+                />
+            <TextView
+                android:autoLink="web"
+                android:text="http://agriculture.gov.in/"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:text="Farmer's Portal"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="4"
+                />
+            <TextView
+                android:autoLink="web"
+                android:text="https://farmer.gov.in/"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:text="Agriculture market"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="4"
+                />
+            <TextView
+                android:autoLink="web"
+                android:text="http://agmarknet.gov.in/"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5"
+            android:padding="10dp">
+            <TextView
+                android:text="Pradhan Mantri Fasal Bina Yojana"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="4"
+                />
+            <TextView
+                android:autoLink="web"
+                android:text="https://pmfby.gov.in/"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+    </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>
