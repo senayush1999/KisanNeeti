@@ -40,5 +40,5 @@ D. Select Crop for which you wnat to know prices of
 #### For Helpline Section:
 A. Select Helpline Icon
 B. Copy any phone number or goto any relevent portal you want to go to.
-Android Version Targeting
+## Android Version Targeting
 Kissan Neeti is currently built to work with Android API (Ice Cream Sandwich). However, Kisan Neeti's minimum SDK support is 24 and Targeted SDK Version is 26.
